@@ -126,7 +126,7 @@
    * base font size: 20px 
    * vertical space unit : 32px
    */
-    --base-size     : 62.5%;
+    --base-size     : 42.5%;
     --multiplier    : 1;
     --base-font-size: calc(2rem * var(--multiplier));
     --space         : calc(3.2rem * var(--multiplier));
