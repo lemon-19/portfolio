@@ -2838,6 +2838,17 @@ td:last-child {
     .testimonials__cite {
         text-align: left;
     }
+
+    .project-page {
+        margin: 100px 20px 20px 20px !important;
+    }
+
+    .project-image img {
+        border-radius: 15px !important;
+    }
+    .mobile {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -3320,7 +3331,7 @@ td:last-child {
  * -------------------------------------------------------------------- */
 .s-intro__content {
     z-index       : 2;
-    align-items   : flex-end;
+    align-items   : center;
     height        : 100%;
     padding-top   : var(--content-padding-top);
     padding-bottom: var(--content-padding-bottom);
@@ -4363,6 +4374,7 @@ td:last-child {
     .ss-go-top {
         right: calc(var(--gutter) / 2 - var(--vspace-0_25));
     }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -4375,4 +4387,78 @@ td:last-child {
     .ss-go-top {
         right: -2rem;
     }
+}
+
+.project-page-body {
+    background-color: var(--color-preloader-bg);
+    position: relative;
+}
+
+.project-page {
+    margin: 50px 100px;
+}
+
+.project-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-data {
+    margin-top: 20px;
+}
+
+.back-arrow {
+    font-size: 30px;
+    transition: color 0.3s ease;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.back-arrow:hover {
+    color: #007BFF;
+}
+
+.project-info .text-display-title {
+    text-align: center;
+    margin-bottom: -30px;
+}
+
+.project-screenshots {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-display-subtitle {
+    font-size     : var(--text-xxl);
+    line-height   : 1.0717;
+    letter-spacing: -0.015em;
+    margin-top    : 0;
+    margin-bottom : var(--vspace-1_5);
+}
+
+.project-image:not(.mobile) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mobile {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-image img {
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.link-text .project-data:hover {
+    color: var(--color-1);
 }
