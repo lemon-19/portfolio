@@ -220,7 +220,7 @@ export default function Portfolio() {
 
             {/* Download Resume Button */}
             <a
-              href="https://drive.google.com/file/d/1-aToS4laXs3_diCAGsnvCQ18FVFc0AW3/view?usp=sharingf"
+              href="https://drive.google.com/file/d/1Ys3etf7xvtebIcpfwqCF6Muy5uPTWGU4/view?usp=sharing"
               target="_blank"
               className="hidden md:flex items-center gap-2 px-4 py-2 bg-emerald-500/10 border border-emerald-500/30 rounded-lg hover:bg-emerald-500/20 transition-all duration-300"
             >
@@ -797,7 +797,7 @@ export default function Portfolio() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://drive.google.com/file/d/1-aToS4laXs3_diCAGsnvCQ18FVFc0AW3/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Ys3etf7xvtebIcpfwqCF6Muy5uPTWGU4/view?usp=sharing"
               target="_blank"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-emerald-500/30 bg-emerald-500/10 rounded-full hover:bg-emerald-500/20 transition-all duration-300 hover:scale-105 text-lg font-semibold"
             >
