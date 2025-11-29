@@ -18,7 +18,7 @@ import {
   Rocket,
   Download,
 } from "lucide-react";
-import image from "../src/assets/image.png";
+import image from "./assets/image.png";
 
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState("home");
