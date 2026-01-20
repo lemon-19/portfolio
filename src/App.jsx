@@ -90,6 +90,22 @@ export default function Portfolio() {
 
   const projects = [
     {
+      title: "CoolTrack",
+      type: "Personal Project",
+      tech: ["MongoDB", "Express.js", "React", "Node.js", "Tailwind CSS"],
+      description:
+        "Full-stack MERN web application for managing day-to-day service transactions, records, and operations of an air conditioner service business. Designed to streamline data management and improve operational efficiency.",
+      highlights: [
+        "CRUD functionality",
+        "Service & transaction tracking",
+        "Structured data management",
+        "Responsive UI",
+      ],
+      gradient: "from-cyan-500 to-blue-600",
+      demoLink: "https://cooltrack-rac.onrender.com/",
+      githubLink: "https://github.com/lemon-19/cooltrack.git",
+    },
+    {
       title: "Finance Tracking App",
       type: "Personal Project",
       tech: ["React", "Tailwind CSS", "Firebase"],
@@ -135,7 +151,7 @@ export default function Portfolio() {
   const achievements = [
     { icon: Award, label: "Cum Laude Graduate", value: "GPA 1.35" },
     { icon: Sparkles, label: "Research Award", value: "Outstanding" },
-    { icon: Rocket, label: "Projects Built", value: "3+" },
+    { icon: Rocket, label: "Projects Built", value: "4+" },
     { icon: Zap, label: "Technologies", value: "10+" },
   ];
 
@@ -220,7 +236,7 @@ export default function Portfolio() {
 
             {/* Download Resume Button */}
             <a
-              href="https://drive.google.com/file/d/1Ys3etf7xvtebIcpfwqCF6Muy5uPTWGU4/view?usp=sharing"
+              href="https://drive.google.com/file/d/1MUssL8bLnHG_QRuX81JStpcYnajfTak5/view?usp=sharing"
               target="_blank"
               className="hidden md:flex items-center gap-2 px-4 py-2 bg-emerald-500/10 border border-emerald-500/30 rounded-lg hover:bg-emerald-500/20 transition-all duration-300"
             >
@@ -797,7 +813,7 @@ export default function Portfolio() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://drive.google.com/file/d/1Ys3etf7xvtebIcpfwqCF6Muy5uPTWGU4/view?usp=sharing"
+              href="https://drive.google.com/file/d/1MUssL8bLnHG_QRuX81JStpcYnajfTak5/view?usp=sharing"
               target="_blank"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-emerald-500/30 bg-emerald-500/10 rounded-full hover:bg-emerald-500/20 transition-all duration-300 hover:scale-105 text-lg font-semibold"
             >
